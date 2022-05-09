@@ -140,7 +140,7 @@ The free developer version of the News API limits the total daily requests, so b
 ##### To receive all points, your code must:
 
 * Be well commented with concise, relevant notes that other developers can understand. (10 points)
-
+## lemmatization is breaking down of words that are similar 
 ## tokenization is the process of breaking up text into words, sentences, or phrases in python you might want to use the split method 
 ## tokenization is simiilar to using split in python the NLTK process is to tokenize the sentence first and then eventually provide a list of all the words 
 ### the reason we do this is for python to do analysis on the text, by splitting it into tokens, words, sentences 
@@ -149,6 +149,13 @@ The free developer version of the News API limits the total daily requests, so b
 # Ngram is a collection of more than one word or phrase, a BiGram is a combination of 2 words - enriching and creating more data "n"is the number of words 
 ## these can be useful maybe in staff surveys or works surveys to identify descriptive words 
 # word cloud is doing the tokenization and the counting 
+## SpaCy there is a trade off between speed and accuracy, where SpaCy is fast but less accurate. 
+## With NLTK it may be better for large databases. 
+## SpaCy is important since it allows you to identify, verbs, nouns, and get context of the sentence, and its meaning it breaks up strings into groups, and classfies words into nouns, verbs etc 
+## SpaCy takes syntaxs and rules and breaks up a sentence. 
+## NER is a process to extract named entities which may include proper nouns ie currencies from a text 
+## 
+
 ---
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
